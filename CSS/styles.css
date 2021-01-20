@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+body{
+   background:linear-gradient(rgba(12, 12, 12, 0.459),rgba(12, 12, 12, 0.459)), url(../Images/pexels-george-desipris-748626.jpg);
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+   color:#fff;
+   text-align: center;
+   margin: 40px;
+   padding: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+span{
+    color:#D81F26;
+    font-size: 50px;
+    position: relative;
+    left: auto;
+    right: 500px;
+    padding: 150px;
+}
+button {
+    background:#d81f2591;
+    border: none;
+    color: rgba(255, 255, 255, 0.747);
+    padding: 15px 32px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    left: 500px;
+    right: auto;
+    top: auto;
+    bottom: 100px;
+    /* padding: 150px; */
+  }
+a{
+    text-decoration: none;
+    
+}
+button:hover{
+    background:#D81F26;
+    color: white;
+}
+.design{
+    font-size: 50px;
+    margin: 20px 10px;
+}
+.design2{
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 20px 10px;
+}
+.design3{
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 20px 10px;
+}
+#label{
+     max-width: 500px;
+	padding: 10px 20px; 
+	background: #f4f7f8;
+	margin: 10px auto; 
+	 padding: 20px;
+	background: #f4f7f89c;
+	 border-radius: 8px; 
+    /* font-family: Georgia, "Times New Roman", Times, serif; */
+    position: relative;
+    left: auto;
+    right: 30px;
+    font-size: 20px;
+}
+label{
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    position: relative;
+    left: auto;
+    right: 25px;
+    font-weight: bold;
+}
+#button{
+    max-width: 500px;
+	padding: 10px 20px; 
+	background: #f4f7f8;
+	margin: 10px auto; 
+	 padding: 20px;
+	background: #f4f7f89c;
+	 border-radius: 10px; 
+    position: relative;
+    left: auto;
+    right: 35px ;
+    font-size: 20px;
+}
+
+#button:hover{
+    max-width: 500px;
+	padding: 10px 20px; 
+    background: #D81F26;
+    color:white;
+	margin: 10px auto; 
+	 padding:20px; 
+     border-radius: 10px; 
+     position: relative;
+     left: auto;
+     right: 35px ;
+    font-size: 20px;
+}

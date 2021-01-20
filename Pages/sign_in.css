@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+   background:linear-gradient(rgba(12, 12, 12, 0.459),rgba(12, 12, 12, 0.459)), url(../Images/pexels-george-desipris-748626.jpg);
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+   color:#fff;
+   text-align: center;
+   margin: 40px;
+   padding: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.card {
+    background: rgba(0, 0, 0, 0.842);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    /* transition: 0.3s; */
+    max-width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    height: 500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* text-align: center; */
+    /* position: relative;
+    left: 20px;
+    right: auto;
+    top: 200px;
+    bottom: auto; */
+}
+.registerbtn{
+    background:#d81f2591;
+    color: rgba(255, 255, 255, 0.747);
+    padding: 15px 32px;
+    margin: 4px 2px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+    font-size: 16px;
+    border-radius: 20px;
+}
+.registerbtn:hover{
+    background:#D81F26;
+    color: white;
+    border: none;
+}
+
+input[type=text], input[type=password] {
+    width: 65%;
+    padding: 10px;
+    margin: 5px 0 12px 0;
+    display: inline-block;
+    border:none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+   
+  #rem{
+      position: relative;
+      left: auto;
+      right: 100px;
+  }
+#email{
+    margin: 10px;
+    padding: 10px;
+    height: 50px;
+    border-radius: 8px;
+}
+#psw{
+    margin: 10px;
+    padding: 10px;
+    height: 50px;
+    border-radius: 8px;
+}
